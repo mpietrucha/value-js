@@ -1,6 +1,6 @@
-import { value } from '@/value'
-import { useNegate, useConfirm } from '@mpietrucha/function'
+import { useValue } from '@/value'
+import { useNegate as negate, useConfirm as confirm } from '@mpietrucha/function'
 
-export const negate = useNegate(value)
+export const useNegate = negate(useValue)
 
-export const confirm = useConfirm(value)
+export const useConfirm = confirm(useValue)

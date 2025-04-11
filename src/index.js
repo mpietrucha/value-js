@@ -1,3 +1,3 @@
-export { confirm, negate } from '@/boolean'
-export { constant } from '@/constant'
-export { value } from '@/value'
+export { useConfirm, useNegate } from '@/boolean'
+export { useConstant } from '@/constant'
+export { useValue } from '@/value'

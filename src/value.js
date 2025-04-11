@@ -1,6 +1,6 @@
 import { isFunction } from '@mpietrucha/function'
 
-export const value = (source, ...parameters) => {
+export const useValue = (source, ...parameters) => {
     if (isFunction(source)) {
         return source(...parameters)
     }
