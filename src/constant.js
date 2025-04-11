@@ -1,4 +1,4 @@
-import { isFunction, useConstant as constant } from '@mpietrucha/function'
+import { useConstant as constant, isFunction } from '@mpietrucha/function'
 
 export const useConstant = source => {
     if (isFunction(source)) {
